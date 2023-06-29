@@ -1,15 +1,15 @@
 name: yolov4-gpu
 
 dependencies:
-  - python==3.7
+  - python
   - pip
   - matplotlib
   - opencv
   - cudnn
-  - cudatoolkit==10.1.243
+  - cudatoolkit
   - pip:
-    - tensorflow-gpu==2.3.0rc0
-    - opencv-python==4.1.1.26
+    - tensorflow-gpu
+    - opencv-python
     - lxml
     - tqdm
     - absl-py
